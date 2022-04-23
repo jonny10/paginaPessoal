@@ -1,3 +1,6 @@
+body{
+    background: url(/assets/Images/Fundo.png) repeat left top fixed;
+}
 .BarraDeRede{
     display:grid;
     justify-content:flex-end;
@@ -113,10 +116,14 @@ h1{
 .JS{
     background-color: #C832FD;
 }
-.Butao{
-    background-color: #C4C4C4;
-    color: black;
-    border: none;
+.Contrate{
+    height: 120px; 
+    background-color: #E2DFDF;
+}
+.button-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .barraFooter{
     height: 70px; 
@@ -134,4 +141,17 @@ h1{
     display: flex;
     align-items: center;
     padding-left: 25px;
+}
+.butao{
+    background-color: transparent;
+    border: 2px black solid;
+    border-radius: 20px;
+    color: black;
+}
+.butao:hover, .butao:active, .butao:focus{
+    background-color: transparent;
+    border: 2px #EEAD2E solid;
+    border-radius: 20px;
+    color: #EEAD2E;
+    box-shadow: none;
 }
